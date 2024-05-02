@@ -11,7 +11,7 @@ print(chosenword)
 letterscorrect = 0
 count = 5
 guess = ""
-while count != 0 or letterscorrect == 5 :
+while count != 0 and letterscorrect != 5 :
     guess = input("enter")
     count = count -1
     
