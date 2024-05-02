@@ -7,12 +7,12 @@ for x in range(0,3000):
     word.append(words.readline())
 
 chosenword = word[num]
-print(chosenword)
+
 letterscorrect = 0
 count = 5
 guess = ""
 while count != 0 and letterscorrect != 5 :
-    guess = input("enter")
+    guess = input("enter your guess!")
     count = count -1
     
    
